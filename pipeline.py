@@ -67,7 +67,7 @@ if os.path.isfile(args.input_path):
     os.remove(video_path)
     base=img_dir_name
     parent=os.path.basename(os.path.dirname(args.input_path))
-    per_imgs_path=f'{parent}/{base}'
+    per_imgs_path=f'data/per/{parent}/{base}'
 
     
     os.makedirs(per_imgs_path,exist_ok=True)
