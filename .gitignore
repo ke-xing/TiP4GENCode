@@ -9,7 +9,7 @@ diff_rasterization/dist
 *.DS_Store
 *.png
 data
-submodules
+# submodules
 SIBR_viewers
 stitch_diffusion
 viewer_windows
